@@ -1,0 +1,56 @@
+# <tipo>(<alcance>): <descripción corta>
+#
+# [Cuerpo del mensaje - explica QUÉ y POR QUÉ, no CÓMO]
+#
+# [Footer - cierra issues, menciona breaking changes]
+
+# ═══════════════════════════════════════════════════════════════════
+# GUÍA PARA COMMITS PROFESIONALES
+# ═══════════════════════════════════════════════════════════════════
+#
+# TIPOS de commit:
+# feat:     Nueva funcionalidad para el usuario
+# fix:      Corrige un bug
+# docs:     Cambios en documentación
+# style:    Formateo, espacios, punto y coma, etc (no afecta el código)
+# refactor: Refactorización del código (no es ni feat ni fix)
+# perf:     Mejoras de rendimiento
+# test:     Agregar o corregir tests
+# chore:    Mantenimiento (deps, build, etc)
+# build:    Cambios en el sistema de build o dependencias
+# config:   Cambios en configuración
+# ci:       Cambios en CI/CD
+# revert:   Revertir un commit anterior
+#
+# ALCANCE (opcional):
+# auth, ui, api, db, config, etc.
+#
+# REGLAS:
+# - Primera línea: máximo 50 caracteres
+# - Usar imperativo: "agrega" no "agregado" o "agregando"
+# - Primera línea NO termina en punto
+# - Línea en blanco entre título y cuerpo
+# - Cuerpo: máximo 72 caracteres por línea
+# - Cuerpo explica QUÉ y POR QUÉ, no CÓMO
+#
+# EJEMPLOS BÁSICOS:
+# feat(auth): agrega autenticación con Google OAuth
+# fix(ui): corrige alineación del botón de login
+# docs: actualiza README con instrucciones de instalación
+# refactor(api): simplifica validación de usuarios
+#
+# EJEMPLOS PARA MÓDULOS Y PROYECTO:
+# feat: agrega módulo de blog posts
+# feat(blog): implementa sistema de comentarios
+# feat(portfolio): agrega galería de proyectos
+# chore: configura estructura inicial del proyecto
+# chore(deps): actualiza dependencias de Django
+# chore: configura entorno de desarrollo
+# build: agrega configuración de UV para el proyecto
+# config: actualiza configuración de base de datos
+# feat(models): agrega modelo de Usuario personalizado
+# feat(admin): configura panel de administración
+# style(templates): mejora diseño responsive
+# perf(db): optimiza consultas de la página principal
+#
+# ═══════════════════════════════════════════════════════════════════
